@@ -4,6 +4,32 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Skylovers Book ♥</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #f0f0f0; /* Optional: adds subtle background */
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+      }
+      
+      /* Optional: For taller images on mobile, ensure full visibility */
+      @media (max-height: 800px) {
+        img {
+          max-height: 100vh;
+          width: auto;
+        }
+      }
+    </style>
   </head>
   <body>
     <img src="images/skyloversbook.jpeg" alt="Skylovers Book ♥" />
